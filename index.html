@@ -1,63 +1,82 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curriculum personal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1  style="text-align: center;"><u>Curriculum</u></h1>
-    <!--Tomado de: https://blog.hubspot.com/website/center-text-in-css#:~:text=To%20center%20text%20in%20CSS%2C%20use%20the%20text%2Dalign%20property,case%2Dby%2Dcase%20basis. -->
-    <div>
-        <div>
-            <img src="./img/profile.png" alt="My-profile-pic" width="200" style="float: right;"/>
-        </div>
+    <header>
+        <h1>Curriculum</h1>
+    </header>
+    <section class="main">
+        <article class="about-me">
+            <article class="pfp">
+                <img src="./img/profile.png" alt="My-profile-pic"/>
+            </article>
+            <article class="pinfo">
+                <h2>Información personal</h2>
+                <p>
+                    <strong>Nombre completo: </strong> Hugo Alexander Ulloa Serpas <br>
+                    <strong>Teléfono: </strong> +503 6300-8010 <br>
+                    <strong>Dirección: </strong> Chinameca, San Miguel <br>
+                    <strong>Fecha y lugar de nacimiento: </strong> Chinameca, 02 de diciembre del 2002 <br>
+                </p>
+            </article>
+            <article class="cinfo">
+                <h2>Información de contacto: </h2>
+                <p>
+                    <strong>Correo electrónico personal: </strong> hugoserpas096@gmail.com <br>
+                    <strong>Correo electrónico universitario: </strong> US21003@ues.edu.sv <br>
+                    <strong>Cuenta personal de Facebook: </strong>
+                    <a target="_blank" href="https://facebook.com/SvenDeJong.hs">Alex Ulloa on Facebook</a> <br>
+                    <strong>Cuenta personal de Twitter: </strong>
+                    <a target="_blank" href="https://twitter.com/__sven__123">Alex Ulloa on Twitter</a> <br>
+                </p>
+            </article>
+            <article class="skills">
 
-        <div style="background-color: #5E81AC; font-family: Serif;">
-            <!--Informacion personal-->
-            <h2>Información personal</h2>
-            <p>
-                <strong>Nombre completo: </strong> Hugo Alexander Ulloa Serpas<br>
-                <strong>Teléfono: </strong> +503 6300-8010 <br>
-                <strong>Dirección: </strong> Chinameca, San Miguel <br>
-                <strong>Fecha y lugar de nacimiento: </strong> Chinameca, 02 de diciembre del 2002 <br>
-            </p>
-        </div>
+                <h2>Lista de mis habilidades</h2>
 
-        <div style="background-color: #81A1C1; font-family: Serif;">
-            <!-- Información de contacto-->
-            <h2>Información de contacto: </h2>
-            <strong>Correo electrónico personal: </strong> hugoserpas096@gmail.com <br>
-            <strong>Correo electrónico universitario: </strong> US21003@ues.edu.sv <br>
-            <strong>Cuenta personal de Facebook: </strong> <a target="_blank" href="https://facebook.com/SvenDeJong.hs">Alex Ulloa on Facebook</a>
-            <br>
-            <strong>Cuenta personal de Twitter: </strong> <a target="_blank" href="https://twitter.com/__sven__123">Alex Ulloa on Twitter</a>
-        </div>
+                <div class="s-skills">
+                    <h3>Habilidades fuertes</h3>
+                    <ul>
+                        <li>Desarrollo de software</li>
+                        <li>Matemáticas</li>
+                        <li>Inglés</li>
+                    </ul>
+                </div>
 
-        <div style="background-color: #88C0D0;">
-            <!--Lista de mis habilidades-->
-            <h2>Lista de mis habilidades</h2>
-            <div style="width: 50%;">
-                <h3>Habilidades fuertes</h3>
-                <ul>
-                    <li>Desarrollo de software</li>
-                    <li>Matemáticas</li>
-                    <li>Inglés</li> <!-- No la gran cosa xd pero algo-->
-                </ul>
-            </div>
+                <div class="w-skills">
+                    <h3>Habilidades débiles</h3>
+                    <ul>
+                        <li>Concentración</li>
+                        <li>Gestión de mi tiempo</li>
+                        <li>Responsabilidad</li>
+                        <li>Creatividad</li>
+                    </ul>
+                </div>
+            </article>
+        </article>
+        <article class="my-works">
+            <article class="works">
+                <h2>Indice del sitio</h2>
+                <p>
+                    <ul>
+                        <li><a href="https://alexus21.github.io/class-design/index.html" target="_blank">Class-design 01</a> <br></li>
+                        <li><a href="https://alexus21.github.io/11-Divisions/index.html" target="_blank">11 Divisiones</a> <br></li>
+                        <li><a href="https://alexus21.github.io/practica3/index.html" target="_blank">Practica 3</a></li>
+                        <li><a href="https://alexus21.github.io/Technologies/index.html" target="_blank">Technologies</a></li>
+                    </ul>
+                </p>
+            </article>
+        </article>
 
-            <div style="width: 50%;">
-                <h3>Habilidades débiles</h3>
-                <ul>
-                    <li>Concentración</li>
-                    <li>Gestión de mi tiempo</li>
-                    <li>Responsabilidad</li>
-                    <!--xd-->
-                </ul>
-            </div>
-        </div>
-    </div>
+    </section>
+    <footer>
+        <p class="footer">
+            Copyright - Hugo Alexander Ulloa Serpas
+        </p>
+    </footer>
 </body>
 </html>

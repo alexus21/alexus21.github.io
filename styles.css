@@ -1,0 +1,73 @@
+h1{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    background-color: #80ffe0;
+    margin: 0;
+    padding: 0.5%;
+}
+
+h2{
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+img{
+    width: 50%;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+}
+
+.pfp{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: ridge;
+}
+
+.my-works{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.pinfo, .cinfo, .skills, .works{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-style: ridge;
+    padding: 1%;
+}
+
+.s-skills, .w-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    font-family: "Times New Roman";
+    font-style: oblique;
+    text-align: center;
+    background-color: #8efdff;
+    margin: 0;
+    padding: 0;
+}
