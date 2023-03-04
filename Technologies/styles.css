@@ -1,5 +1,14 @@
+body{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
 img{
     width: 25%;
+    padding-top: 5%;
 }
 
 a{
@@ -12,45 +21,49 @@ a{
     margin-bottom: 5%;
 }
 
-.main{
-    height: 90%;
-    background-color: #97ffbc;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
 .header{
-    background-color: #aac4ff;
-    width: 97%;
-    height: 10%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
-    margin: 1% 1% 1% 1%;
-    color: white;
+    color: #fffcf9;
+    font-size: 25px;
 }
 
-.services-container{
+.main{
     width: 100%;
-    justify-content: space-between;
+    height: 50%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
+    background-image: linear-gradient(-45deg, #c7c4ff, #c2ffce);
+}
+
+.ar-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5%;
 }
 
 .services{
-    background-color: white;
     width: 30%;
-    margin: 1% 2% 2% 1%;
-    align-items: center;
-    justify-content: space-around;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 2%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.footer{
+    text-align: center;
+    color: #fffcf9;
+    padding-bottom: 1%;
 }
