@@ -5,6 +5,7 @@ h1{
     background-color: #80ffe0;
     margin: 0;
     padding: 0.5%;
+    clear: both;
 }
 
 h2{
@@ -12,12 +13,14 @@ h2{
     font-weight: bold;
     padding-bottom: 5%;
     padding-left: 1%;
+    font-family: Arial;
 }
 
 h3{
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    font-family: Arial;
 }
 
 img{
@@ -42,9 +45,19 @@ img{
     padding-bottom: 1%;
 }
 
-.about-me, .skills{
+.about-me, .skills, .description, .work-experience{
     font-size: 20px;
+    font-family: Arial;
     margin-left: 5%;
+    padding-bottom: 1%;
+}
+
+.more-about-me{
+    height: 60%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 5%;
+    column-gap: 1%;
 }
 
 .footer{
