@@ -1,5 +1,5 @@
 h1{
-    font-size: 30px;
+    font-size: 35px;
     font-style: oblique;
     text-align: center;
     background-color: #80ffe0;
@@ -9,16 +9,16 @@ h1{
 }
 
 h2{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: lighter;
     padding-bottom: 5%;
     padding-left: 1%;
     font-family: Arial;
 }
 
 h3{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: normal;
     padding-bottom: 5%;
     font-family: Arial;
 }
@@ -48,16 +48,42 @@ img{
 .about-me, .skills, .description, .work-experience{
     font-size: 20px;
     font-family: Arial;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-bottom: 1%;
 }
 
+.linux-knowledge-bar, .networking-knowledge-bar, .english-knowledge-bar, .programming-knowledge-bar{
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.linux-knowledge-bar{
+    width: 35%;
+}
+
+.networking-knowledge-bar{
+    width: 20%;
+}
+
+.english-knowledge-bar{
+    width: 30%;
+}
+
+.programming-knowledge-bar{
+    width: 35%;
+}
+
 .more-about-me{
-    height: 60%;
+    height: 99%;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
     row-gap: 5%;
-    column-gap: 1%;
+    column-gap: 5%;
+    padding-top: 1%;
 }
 
 .footer{
