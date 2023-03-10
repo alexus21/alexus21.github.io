@@ -4,7 +4,7 @@ h1{
     text-align: center;
     background-color: #80ffe0;
     margin: 0;
-    padding: 0.5%;
+    padding: 0;
     clear: both;
 }
 
@@ -32,8 +32,7 @@ img{
     width: 100%;
     height: 60%;
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    row-gap: 1%;
+    grid-template-columns: 20% auto;
     column-gap: 1%;
 }
 
@@ -45,11 +44,21 @@ img{
     padding-bottom: 1%;
 }
 
+.more-about-me{
+    background-color: white;
+    color: white;
+    display: grid;
+    grid-template-rows: 25% auto;
+    row-gap: 1%;
+    padding-top: 1%;
+}
+
 .about-me, .skills, .description, .work-experience{
     font-size: 20px;
     font-family: Arial;
-    margin-left: 3%;
     padding-bottom: 1%;
+    background-color: #41a185;
+    justify-content: center;
 }
 
 .linux-knowledge-bar, .networking-knowledge-bar, .english-knowledge-bar, .programming-knowledge-bar{
@@ -75,15 +84,6 @@ img{
 
 .programming-knowledge-bar{
     width: 35%;
-}
-
-.more-about-me{
-    height: 99%;
-    display: grid;
-    grid-template-rows: 1fr 3fr;
-    row-gap: 5%;
-    column-gap: 5%;
-    padding-top: 1%;
 }
 
 .footer{
