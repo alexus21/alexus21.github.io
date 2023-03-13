@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
+    grid-template-rows: auto 5% 25% 35% auto;
+    grid-template-areas: 
+        "header header header"
+        "navbar navbar navbar"
+        "ofertas ofertas ofertas"
+        "productos productos productos"
+        "footer footer footer";
+    row-gap: 10px;
+    width: 90%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    grid-area: header;
+    background-color: bisque;
+    grid-row: 1 / 2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    color: white;
+    grid-area: navbar;
+    background-color: #151625;
+    grid-row: 2/3;
+}
+
+.ofertas {
+    padding: 1%;
+    grid-area: ofertas;
+    background-color: brown;
+    grid-row: 3/4;
+}
+
+.productos {
+    grid-area: productos;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    background-color: cornflowerblue;
+    grid-row: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: footer;
+    grid-row: 7/9;
+    color: black;
+    font-size: 25px;
+}
+
+.border {
+    border-radius: 20px;
+}
+
+.logo{
+    width: 15%;
+    height: 70%
+}
+
+.text{
+    float: left;
+    font-size: 80px;
+    color: white;
+}
+
+.rings{
+    float: right;
+    height: 105%;
+}
+
+.img-prod{
+    width: 55%;
+    height: 80%;
+}
+
+.company-name, .line{
+    font-weight: bold;
+}
+
+.line, .copyright{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright{
+    margin-left: 25%;
+}
