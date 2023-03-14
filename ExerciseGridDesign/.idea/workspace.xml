@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60d875fc-e4f3-486e-9fe2-a3ec63e8ff2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/smartphone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tablet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -32,6 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2My4ERpRmOrNhGlVWaMsadUhfzc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,7 +65,8 @@
       <updated>1678726376152</updated>
       <workItem from="1678726379483" duration="5142000" />
       <workItem from="1678737677255" duration="5250000" />
-      <workItem from="1678743433571" duration="381000" />
+      <workItem from="1678743433571" duration="592000" />
+      <workItem from="1678799948796" duration="1654000" />
     </task>
     <servers />
   </component>

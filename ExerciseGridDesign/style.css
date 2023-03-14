@@ -99,12 +99,3 @@ body {
 .company-name, .line{
     font-weight: bold;
 }
-
-.line, .copyright{
-    justify-content: space-around;
-    align-items: center;
-}
-
-.copyright{
-    margin-left: 25%;
-}

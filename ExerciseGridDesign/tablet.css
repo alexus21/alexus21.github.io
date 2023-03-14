@@ -1,0 +1,8 @@
+.productos{
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+row-gap: 5px;
+}
+.ofertas {
+    background-color: rgb(7, 97, 170);
+}
