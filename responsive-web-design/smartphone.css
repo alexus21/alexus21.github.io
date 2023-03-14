@@ -1,0 +1,17 @@
+.header{
+    background-color: #605933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.box{
+    width: 100%;
+}

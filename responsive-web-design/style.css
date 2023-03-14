@@ -37,23 +37,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 100px;
     grid-column: 1/5;
     color: white;
 }
 
 .content{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 5%;
-    row-gap: 15%;
+    gap: 15%;
     grid-column: 1/5;
 }
 
 img{
-    width: 45%;
+    width: 65%;
 }
 
 .box{
@@ -62,7 +63,7 @@ img{
     justify-content: center;
     align-items: center;
     text-align: justify;
-    width: 30%;
+    border-style: hidden;
 }
 
 .footer{
