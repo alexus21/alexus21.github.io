@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+//Generic-class
+.generic-center-items{
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    @extend .generic-center-items;
+    background: linear-gradient(45deg, #5e1303, #030c49);
+    color: white;
+    font-size: 45px;
+    border: black;
+    border-style: groove;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 50px;
+    background: linear-gradient(45deg, #5e1303, #030c49);
+    border: black;
+    border-style: groove;
+
+    a{
+        color: white;
+        font-size: 25px;
+    }
+}
+
+main{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 3fr 1fr;
+    background: linear-gradient(to right, #000000, #2c3e50);
+
+    section{
+        color: white;
+        grid-column: 2/3;
+        text-justify: inter-word;
+
+        .home{
+            align-items: center;
+
+            h2{
+                font-size: 40px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+            }
+    
+            img{
+                width: 100%;
+                height: 40%;
+                // margin-left: 25%;
+            }
+        }
+
+        .artists{
+
+            @extend .generic-center-items;
+            h2{
+                font-size: 40px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            h3{
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .artists-list{
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1%;
+
+                .ac-dc{
+                    grid-column: 0/1;
+                    grid-row: 1/1;
+                }
+    
+                .sabaton{
+                    grid-column: 2/3;
+                    grid-row: 1/1;
+                }
+
+                .arch-enemy{
+                    grid-column: 3/4;
+                    grid-row: 1/1;
+                }
+
+                .ghost{
+                    grid-column: 0/1;
+                    grid-row: 2/2;
+                }
+    
+                .soad{
+                    grid-column: 2/3;
+                    grid-row: 2/2;
+                }
+
+                .rammstein{
+                    grid-column: 3/4;
+                    grid-row: 2/2;
+                }
+    
+                img{
+                    width: 100%;
+                    height: 60%;
+                }
+            }
+        }
+
+        .tickets{
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                font-size: 40px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-left: 5%;
+                margin-right: 5%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+
+                button{
+                    width: 80px;
+                    height: 35px;
+                    float: right;
+                    margin-top: 1%;
+                    box-shadow: 5px 5px rgb(90, 87, 87);
+                    border-radius: 50px;
+                }
+
+                button:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .location, .contact{
+            h2{
+                font-size: 40px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+            }
+        }
+    }
+}
