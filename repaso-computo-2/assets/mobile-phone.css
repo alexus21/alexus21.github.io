@@ -1,0 +1,15 @@
+.generic-center-items {
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #000000, #2c3e50);
+}
+main section .artists .artists-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}/*# sourceMappingURL=mobile-phone.css.map */
