@@ -39,12 +39,9 @@ main {
   grid-template-columns: 1fr 3fr 1fr;
   background: linear-gradient(to right, #000000, #2c3e50);
 }
-<<<<<<< HEAD
 main h2 {
   text-decoration: underline;
 }
-=======
->>>>>>> 04bc2e870b886d65f349d68a1eea31af376d012f
 main section {
   color: white;
   grid-column: 2/3;
