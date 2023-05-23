@@ -6,8 +6,7 @@ const validatePromo = (e) => {
     const code = document.querySelector("[data-code]").value;
 
     checkFieldsAreEmpty();
-    timesClicked++;
-    console.log(timesClicked);
+    timesClicked+=1;
 
     if (!code && isEmpty) {
         const message = document.querySelector("[data-promo-error]");
@@ -58,10 +57,13 @@ const checkFieldsAreEmpty = () => {
 }
 
 const notifyThatFieldIsEmpty = (item) => {
-    const errorMessage = document.createElement("span");
-    errorMessage.textContent = "Este elemento no puede quedar vacío";
-    errorMessage.classList.add("text-danger");
-    item.parentNode.appendChild(errorMessage);
+
+    if(timesClicked < 1){
+        const errorMessage = document.createElement("span");
+        errorMessage.textContent = "Este elemento no puede quedar vacío";
+        errorMessage.classList.add("text-danger");
+        item.parentNode.appendChild(errorMessage);
+    }
 }
 
 const removeFieldErrorMessage = (item) => {
