@@ -1,0 +1,17 @@
+{
+    "nombre": "Diego Herrera",
+    "profesion": "Ingeniero de Sistemas Informåticos",
+    "lenguajes": [
+        "C++",
+        "python",
+        "PHP",
+        "C#",
+        "Java",
+        "JavaScript"
+    ],
+    "direccion": {
+        "pais": "El Salvador",
+        "ciudad": "Usulután",
+        "direccion_complementaria": "Calle I,Pasaje 2, casa 3"
+    }
+}
